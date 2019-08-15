@@ -1,4 +1,4 @@
-##HOW TO PLAY: 
+## HOW TO PLAY: 
 <br>
 Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same symbol touch, they get <strong>promoted!</strong>
 
