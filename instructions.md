@@ -1,5 +1,5 @@
 ##HOW TO PLAY: 
-Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same symbol touch, they get <strong>promoted!</strong
+Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same symbol touch, they get <strong>promoted!</strong>
 
 Click the text <strong>Change Score Type</strong> to toggle between showing <strong>numbers</strong> & showing <strong>pictures.</strong>
 
