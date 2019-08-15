@@ -1,5 +1,5 @@
 
-# 2048
+# 2048 Cupcakes
 This turned [2048 Cupcakes](https://0x0800.github.io/2048-CUPCAKES/) into a chrome extension.
 
 Made just for fun. [Chrome Web Store Download](https://chrome.google.com/webstore/detail/2048-cupcakes/bebbjaeaajgmpgndeagilpdhfamikjbe)
