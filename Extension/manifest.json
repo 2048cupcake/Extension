@@ -1,9 +1,7 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
   "name": "2048 Cupcakes",
   "short_name": "2048 Cupcake",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A popup 2048 cupcakes game",
    "offline_enabled": true,
  "manifest_version": 2,
