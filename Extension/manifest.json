@@ -7,7 +7,7 @@
  "manifest_version": 2,
  "browser_action": {
       "default_title": "2048 Cupcakes",
-      "default_popup": "new/index.html",
+      "default_popup": "New/index.html",
         "default_icon": {
             "16": "images/icon16.png",
             "48": "images/icon48.png",
