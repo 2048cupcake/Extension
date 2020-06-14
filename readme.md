@@ -12,7 +12,7 @@ The official website can also be found [Here](http://2048cupcake.github.io)
 Others who helped along the way:
 
  - [0x0800](https://github.com/0x0800) Created 2048 Cupcakes
- - [Gabriele Cirulli](https://github.com/gabrielecirulli) Created 2048 Cupcakes
+ - [Gabriele Cirulli](https://github.com/gabrielecirulli) Created 2048
  - [1024 (The Game)](https://www.veewo.com/games/?name=1024) What 2048 was based off of
  - [Threes (The Game)](http://asherv.com/threes/) What 1024 was based off of
 
