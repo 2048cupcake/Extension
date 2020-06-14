@@ -14,6 +14,16 @@ function HTMLActuator() {
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
+  
+    if (localStorage.getItem('bestLevelMundial') < 8192)  { 
+	var elems = document.getElementsByClassName('level2');
+for(var i = 0; i < elems.length; i++) {
+    elems[i].style.display = 'none';
+}} else {
+	var elems = document.getElementsByClassName('level2');
+for(var i = 0; i < elems.length; i++) {
+    elems[i].style.display = 'block';
+}}
 
   window.requestAnimationFrame(function () {
     self.clearContainer(self.tileContainer);
