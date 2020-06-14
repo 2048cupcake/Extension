@@ -402,6 +402,13 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-4096 .tile-inner {
         font-size: 15px; } }
+		  .tile.tile-8192 .tile-inner {
+    background: white;
+    box-shadow: 0 0 30px 10px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: white;
     background: #303a3d;
@@ -723,7 +730,7 @@ hr {
   background-color: white;
   display: block; }
 
-.cell-2048 {
+.cell-4096 {
   background-color: white;
   box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
 .tile-score-4096 {
@@ -732,6 +739,73 @@ hr {
   background-position: center center;
   background-color: white;
   display: block; }
+  
+  .cell-8192 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+.tile-score-8192 {
+  background-image: url("img/8192.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+      .cell-16384 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-16384 {
+  background-image: url("img/16384.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-32768 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-32768 {
+  background-image: url("img/32768.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-65536 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-65536 {
+  background-image: url("img/65536.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-131072 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-131072 {
+  background-image: url("img/131072.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-262144 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-262144 {
+  background-image: url("img/262144.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+  
 .repo-link {
   margin-top: 40px;
   margin-right: 20px;
@@ -1175,6 +1249,73 @@ hr {
 
 .tile-score-4096 {
   background-image: url("img/4096.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+
+  
+  .cell-8192 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-8192 {
+  background-image: url("img/8192.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-16384 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-16384 {
+  background-image: url("img/16384.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-32768 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-32768 {
+  background-image: url("img/32768.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-65536 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-65536 {
+  background-image: url("img/65536.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-131072 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-131072 {
+  background-image: url("img/131072.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: white;
+  display: block; }
+  
+    .cell-262144 {
+  background-color: white;
+  box-shadow: 0 0 30px 5px rgba(252, 140, 18, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+
+.tile-score-262144 {
+  background-image: url("img/262144.jpg");
   background-size: cover;
   background-position: center center;
   background-color: white;

@@ -115,6 +115,16 @@ GameManager.prototype.setup = function () {
   this.fillRank("rank-wrapper");
   // Update the actuator
   this.actuate();
+  
+    if (localStorage.getItem('bestLevelMundial') < 8192)  { 
+	var elems = document.getElementsByClassName('level2');
+for(var i = 0; i < elems.length; i++) {
+    elems[i].style.display = 'none';
+}} else {
+	var elems = document.getElementsByClassName('level2');
+for(var i = 0; i < elems.length; i++) {
+    elems[i].style.display = 'block';
+}}
 };
 
 // Fill rank
@@ -133,7 +143,14 @@ GameManager.prototype.fillRank = function (divname) {
 
     cont.appendChild(cell);
   }
-
+ for (var i = 13; i <= 18; i++) {
+    var exp = Math.pow(2, i);
+    var cell = document.createElement("div");
+    cell.classList.add('rank-cell');
+    cell.classList.add('tile-score-' + exp);
+    cell.classList.add('level2');
+    cont.appendChild(cell);
+  }
   wrapper.appendChild(cont);
   
 };
@@ -180,7 +197,18 @@ GameManager.prototype.addRandomTile = function () {
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
+	
+    if (localStorage.getItem('bestLevelMundial') < 8192)  { 
+	var elems = document.getElementsByClassName('level2');
+for(var i = 0; i < elems.length; i++) {
+    elems[i].style.display = 'none';
+}} else {
+	var elems = document.getElementsByClassName('level2');
+for(var i = 0; i < elems.length; i++) {
+    elems[i].style.display = 'block';
+}}
   }
+  
 };
 
 // Sends the updated grid to the actuator
